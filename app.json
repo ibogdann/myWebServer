@@ -1,0 +1,10 @@
+{
+  "buildpacks": [
+    {
+      "url": "https://github.com/ibogdann/myWebServer"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
