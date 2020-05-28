@@ -11,7 +11,7 @@ public class SOAPWebServicePublisher {
 		WebServiceDataProvider dataProvider = new WebServiceDataProviderImpl();
 		populateDataProvider(dataProvider);
 		
-		Endpoint.publish("\"https://my-web-server-tryout.herokuapp.com/admin", new WebServiceImpl(dataProvider));
+		Endpoint.publish("https://my-web-server-tryout.herokuapp.com/admin", new WebServiceImpl(dataProvider));
 //		System.out.println("---WEB SERVER DEPLOYED---");
 	}
 	
